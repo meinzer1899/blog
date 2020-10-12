@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>The Amazing Bear Classifier! | fastpages</title>
+<title>The Amazing Bear Classifier!! | fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="The Amazing Bear Classifier!" />
+<meta property="og:title" content="The Amazing Bear Classifier!!" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-11T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","url":"https://meinzer1899.github.io/blog/2020/10/11/Bear-Classifier.html","@type":"BlogPosting","headline":"The Amazing Bear Classifier!","dateModified":"2020-10-11T00:00:00-05:00","datePublished":"2020-10-11T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://meinzer1899.github.io/blog/2020/10/11/Bear-Classifier.html"},"@context":"https://schema.org"}</script>
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","url":"https://meinzer1899.github.io/blog/2020/10/11/Bear-Classifier.html","@type":"BlogPosting","headline":"The Amazing Bear Classifier!!","dateModified":"2020-10-11T00:00:00-05:00","datePublished":"2020-10-11T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://meinzer1899.github.io/blog/2020/10/11/Bear-Classifier.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://meinzer1899.github.io/blog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,7 +71,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">The Amazing Bear Classifier!</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-11T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">The Amazing Bear Classifier!!</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-11T00:00:00-05:00" itemprop="datePublished">
         Oct 11, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -135,6 +135,24 @@ window.onload = wrap_img;
 </div>
     
 
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install voila
+<span class="o">!</span>jupyter serverextension <span class="nb">enable</span> voila --user
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>You need to know whether you're being chased by a dangerous grizzly, or a sweet teddy bear, and you need an answer <em>fast</em>? Then you've come to the right place. Take a pic of the potentially vicious killer, and click 'upload' to classify it. (Important: this only handles grizzly bears, black bears, and teddy bears. It will <strong>not</strong> give a sensible answer for polar bears, a bear market, a bear of a man, or hot dogs.</p>
@@ -151,7 +169,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">()</span>
-<span class="n">learn_inf</span> <span class="o">=</span> <span class="n">load_learner</span><span class="p">(</span><span class="n">path</span><span class="o">/</span><span class="s1">&#39;2020-10-11/export.pkl&#39;</span><span class="p">,</span> <span class="n">cpu</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 <span class="n">btn_upload</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">FileUpload</span><span class="p">()</span>
 <span class="n">out_pl</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
 <span class="n">lbl_pred</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Label</span><span class="p">()</span>
