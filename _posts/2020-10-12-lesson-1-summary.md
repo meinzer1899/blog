@@ -5,10 +5,10 @@ description: Lesson1 of fast.ai's 2020 course covers topics like limitations and
 categories: [fast.ai, 2020, summary, lesson 1]
 comments: true
 image: images/2020-10-12/teddy-post.jpeg
-title: Lesson 1 summary
+title: Summary of fast.ai Course 2020 Lesson 1
 ---
 
-# Limitations Inherited to ML
+## Limitations Inherited to ML
 
 A model cannot be created without data. Models outputs are *predictions*, not
 *actions*. The data can be divided into
@@ -27,12 +27,13 @@ model. A validation set&mdash;used to validate the models performance&mdash;of
 
 {% include info.html text="Model goals" %}
 We want a model to predict previously unseen data by finding general
-*patterns* in the data it is trained with, called **generalization**. The thing 
-do is called **memorization**&mdash;memorize all data it was shown and so fail
+*patterns* in the data it is trained with, called **generalization**. The thing
+is called **memorization**&mdash;memorize all data it was shown and so fail
 at previously unseen data. One sign our model tries to memorize instead of
 finding general patterns in our data is by *overfitting*.
 
 ## Pretrained Model
+
 A pretrained model is a model which weights already have been trained by
 experts for a specific task, e.g. image recognition with *ImageNet* dataset.
 
@@ -46,6 +47,7 @@ scratch.
 good enough in books and courses" %}
 
 ## Image classification
+
 **Imag**in**e** what you can turn into images: audio signals, movements, or time
 series. This can be used to let models for image classification for different
 tasks. For example, a model trained for mouse movement images can be used for
@@ -55,6 +57,7 @@ Model accuracy can be increased by *segmentation*&mdash;recognize every pixel of
 an image
 
 ## Dataset tipps
+
 Without good data, a model cannot achieve good results (garbage in, garbage out
 principle). Use cut-down versions of datasets&mdash;subsets of the
 dataset&mdash;for prototyping and experimenting.
