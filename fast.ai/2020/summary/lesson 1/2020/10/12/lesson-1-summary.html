@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Lesson 1 summary | fastpages</title>
+<title>Summary of fast.ai Course 2020 Lesson 1 | fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Lesson 1 summary" />
+<meta property="og:title" content="Summary of fast.ai Course 2020 Lesson 1" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Lesson1 of fast.ai’s 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary." />
 <meta property="og:description" content="Lesson1 of fast.ai’s 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary." />
@@ -17,7 +17,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-12T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Lesson1 of fast.ai’s 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary.","url":"https://meinzer1899.github.io/blog/fast.ai/2020/summary/lesson%201/2020/10/12/lesson-1-summary.html","@type":"BlogPosting","headline":"Lesson 1 summary","dateModified":"2020-10-12T00:00:00-05:00","datePublished":"2020-10-12T00:00:00-05:00","image":"https://meinzer1899.github.io/blog/images/2020-10-12/teddy-post.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"https://meinzer1899.github.io/blog/fast.ai/2020/summary/lesson%201/2020/10/12/lesson-1-summary.html"},"@context":"https://schema.org"}</script>
+{"description":"Lesson1 of fast.ai’s 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary.","url":"https://meinzer1899.github.io/blog/fast.ai/2020/summary/lesson%201/2020/10/12/lesson-1-summary.html","@type":"BlogPosting","headline":"Summary of fast.ai Course 2020 Lesson 1","dateModified":"2020-10-12T00:00:00-05:00","datePublished":"2020-10-12T00:00:00-05:00","image":"https://meinzer1899.github.io/blog/images/2020-10-12/teddy-post.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"https://meinzer1899.github.io/blog/fast.ai/2020/summary/lesson%201/2020/10/12/lesson-1-summary.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://meinzer1899.github.io/blog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -88,7 +88,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Lesson 1 summary</h1><p class="page-description">Lesson1 of fast.ai's 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-12T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Summary of fast.ai Course 2020 Lesson 1</h1><p class="page-description">Lesson1 of fast.ai's 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-12T00:00:00-05:00" itemprop="datePublished">
         Oct 12, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -123,15 +123,12 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#limitations-inherited-to-ml">Limitations Inherited to ML</a>
-<ul>
+<li class="toc-entry toc-h2"><a href="#limitations-inherited-to-ml">Limitations Inherited to ML</a></li>
 <li class="toc-entry toc-h2"><a href="#pretrained-model">Pretrained Model</a></li>
 <li class="toc-entry toc-h2"><a href="#image-classification">Image classification</a></li>
 <li class="toc-entry toc-h2"><a href="#dataset-tipps">Dataset tipps</a></li>
-</ul>
-</li>
-</ul><h1 id="limitations-inherited-to-ml">
-<a class="anchor" href="#limitations-inherited-to-ml" aria-hidden="true"><span class="octicon octicon-link"></span></a>Limitations Inherited to ML</h1>
+</ul><h2 id="limitations-inherited-to-ml">
+<a class="anchor" href="#limitations-inherited-to-ml" aria-hidden="true"><span class="octicon octicon-link"></span></a>Limitations Inherited to ML</h2>
 
 <p>A model cannot be created without data. Models outputs are <em>predictions</em>, not
 <em>actions</em>. The data can be divided into</p>
