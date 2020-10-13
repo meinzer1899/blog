@@ -2,9 +2,12 @@
 toc: true
 layout: post
 description: A minimal example of using markdown with fastpages.
-categories: [markdown]
-title: An Example Markdown Post
+categories: [markdown, cheat sheet]
+comments: true
+image: images/logo.png
+title: fastpages cheat pos
 ---
+
 # Example Markdown Post
 
 ## Basic setup
