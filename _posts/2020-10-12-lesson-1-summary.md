@@ -1,9 +1,7 @@
 ---
 toc: true
 layout: post
-description: Lesson1 of fast.ai's 2020 course covers topics like limitations and
-things where machine learning models are good at, pretrained models, image
-classification and also gives hints on datasets. Here is my summary.
+description: Lesson1 of fast.ai's 2020 course covers topics like limitations and things where machine learning models are good at, pretrained models, image classification and also gives hints on datasets. Here is my summary.
 categories: [fast.ai, 2020, summary, lesson 1]
 comments: true
 image: images/2020-10-12/teddy-post.jpeg
